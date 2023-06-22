@@ -17,6 +17,11 @@ body {
   src: url(./font/Khula-ExtraBold.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Khula Bold";
+  src: url(./font/Khula-Bold.ttf) format("truetype");
+}
+
 .section1 {
   margin: auto;
   width: 1440px;
@@ -117,4 +122,14 @@ h1 {
 h1 > span {
   display: inline-block;
   transform: scale(-1, 1) 
+}
+
+h2 {
+  font-family: "Khula Bold", sans-serif;
+  font-size: 26px;
+  letter-spacing: 5px;
+  padding: 0px 0px 0px 91px;
+  text-transform: uppercase;
+  margin: 0px;
+  font-style: italic;
 }
