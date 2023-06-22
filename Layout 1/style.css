@@ -1,6 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #54514e;
+}
+
+@font-face {
+  font-family: "Khula Regular";
+  src: url(./font/Khula-Regular.ttf) format("truetype");
 }
 
 .section1 {
@@ -25,4 +35,67 @@ body {
   background: url(image/BottomWhiteLine.png) no-repeat left bottom;
   background-size: contain;
   height: 192px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.menu > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.menu > ul > li:not(:last-child) {
+  padding-top: 5px;
+  margin: 0px 31px;
+  color: #54514e;
+  font-family: "Khula Regular", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+ul > li:last-child {
+  position: relative;
+}
+
+.input {
+  position: relative;
+  height: 51px;
+  width: 183px;
+  padding: 5px 55px 0px 15px;
+  background-color: #c5bfbc;
+  border: none;
+  border-radius: 24px;
+  color: #54514e;
+  font-family: "Khula Regular", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-right: 62px;
+  margin-left: 31px;
+}
+
+li > img {
+position: absolute;
+top: 10px;
+left: 160px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input:focus + img {
+  display: none;
+}
+
+div > img {
+  margin-left: 74px;
+  margin-top: 30px;
 }
