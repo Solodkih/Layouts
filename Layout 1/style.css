@@ -44,6 +44,7 @@ body {
 }
 
 .menu > ul {
+  margin-top: 41px;
   list-style-type: none;
   display: flex;
   justify-content: end;
@@ -67,17 +68,17 @@ ul > li:last-child {
 .input {
   position: relative;
   height: 51px;
-  width: 183px;
+  width: 182px;
   padding: 5px 55px 0px 15px;
   background-color: #c5bfbc;
   border: none;
-  border-radius: 24px;
+  border-radius: 25px;
   color: #54514e;
   font-family: "Khula Regular", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 16px;
-  margin-right: 62px;
+  margin-right: 56px;
   margin-left: 31px;
 }
 
