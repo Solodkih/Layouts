@@ -12,6 +12,10 @@ body {
   font-family: "Khula Regular";
   src: url(./font/Khula-Regular.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Khula ExtraBold";
+  src: url(./font/Khula-ExtraBold.ttf) format("truetype");
+}
 
 .section1 {
   margin: auto;
@@ -99,4 +103,18 @@ left: 160px;
 div > img {
   margin-left: 74px;
   margin-top: 30px;
+}
+
+h1 {
+  font-family: "Khula ExtraBold", sans-serif;
+  font-size: 100px;
+  color: #edb47c;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 0px;
+  padding: 181px 0px 0px 93px;
+  line-height: 1.05;
+}
+h1 > span {
+  display: inline-block;
+  transform: scale(-1, 1) 
 }
