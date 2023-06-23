@@ -94,7 +94,7 @@ ul > li:last-child {
 li > img {
   position: absolute;
   top: 10px;
-  left: 160px;
+  left: 150px;
 }
 
 .input:focus {
@@ -138,7 +138,7 @@ h2 {
   font-family: "Khula ExtraBold", sans-serif;
   font-size: 26px;
   text-transform: uppercase;
-  margin: 66px 0px 0px 91px;
+  margin: 44px 0px 0px 91px;
   width: 219px;
   height: 47px;
   border:none;
@@ -146,4 +146,15 @@ h2 {
   color: #7c6c64;
   background-color: #fffefd;
   border-radius: 20px;
+}
+
+.text{
+  font-family: "Khula Regular";
+  font-size: 21px;
+  font-style: italic;
+  margin: 27px 0px 0px 90px;
+  line-height: 1.2;
+  letter-spacing: 1.4px;
+
+
 }
