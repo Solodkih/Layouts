@@ -7,31 +7,33 @@
   </head>
   <body>
     <section class="section1">
-      <header class="menu">
-        <div><img src="./image/Logo.png" width="91" height="94" /></div>
-        <ul>
-          <li>home</li>
-          <li>menu</li>
-          <li>our story</li>
-          <li>contact us</li>
-          <li>
-            <input type="text" size="10" class="input" />
-            <img src="./image/Seach.png" width="34" height="34" />
+      <header class="section1__menu menu">
+        <img class="menu__logo" src="./image/Logo.png" width="91" height="94" />
+        <ul class="menu__list">
+          <li class="menu__list-item">home</li>
+          <li class="menu__list-item">menu</li>
+          <li class="menu__list-item">our story</li>
+          <li class="menu__list-item">contact us</li>
+          <li class="seach">
+            <input class="seach__input" type="text" size="10" />
+            <img class="seach__logo" src="./image/Seach.png" width="34" height="34" />
           </li>
         </ul>
       </header>
-      <div>
+      <div class="section1__body">
         <h1>
           It<span>`</span>s time<br />
           for hiking
         </h1>
         <h2>Loremipsum dolor</h2>
         <button>Read more</button>
-        <div class="text">Lorem ipsum dolor sit amet, consectetur adipi-<br />
-        scing elt, sed do iusmod tempor incididunt ut<br />
-        labore et dolore magna</div>
+        <div class="text">
+          Lorem ipsum dolor sit amet, consectetur adipi-<br />
+          scing elt, sed do iusmod tempor incididunt ut<br />
+          labore et dolore magna
+        </div>
       </div>
-      <footer></footer>
+      <footer class="section1__footer"></footer>
     </section>
   </body>
 </html>

@@ -31,19 +31,10 @@ body {
   background-position-x: center;
 }
 
-.section1 > header {
+.section1__menu {
   background: url(image/TopWhiteLine.png) no-repeat left top;
   background-size: contain;
   height: 196px;
-}
-
-.section1 > div {
-  height: 693px;
-}
-.section1 > footer {
-  background: url(image/BottomWhiteLine.png) no-repeat left bottom;
-  background-size: contain;
-  height: 192px;
 }
 
 .menu {
@@ -52,7 +43,23 @@ body {
   align-items: start;
 }
 
-.menu > ul {
+.section1__body {
+  height: 693px;
+}
+
+.section1__footer {
+  background: url(image/BottomWhiteLine.png) no-repeat left bottom;
+  background-size: contain;
+  height: 192px;
+}
+
+.menu__logo {
+  display: block;
+  margin-left: 74px;
+  margin-top: 30px;
+}
+
+.menu__list {
   margin-top: 41px;
   list-style-type: none;
   display: flex;
@@ -60,7 +67,7 @@ body {
   align-items: center;
 }
 
-.menu > ul > li:not(:last-child) {
+.menu__list-item {
   padding-top: 5px;
   margin: 0px 31px;
   color: #54514e;
@@ -70,11 +77,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-ul > li:last-child {
+
+.seach {
   position: relative;
 }
 
-.input {
+.seach__input {
   position: relative;
   height: 51px;
   width: 182px;
@@ -91,23 +99,18 @@ ul > li:last-child {
   margin-left: 31px;
 }
 
-li > img {
+.seach__logo {
   position: absolute;
   top: 10px;
   left: 150px;
 }
 
-.input:focus {
+.seach__input:focus {
   outline: none;
 }
 
-.input:focus + img {
+.seach__input:focus + .seach__logo {
   display: none;
-}
-
-div > img {
-  margin-left: 74px;
-  margin-top: 30px;
 }
 
 h1 {
@@ -141,20 +144,18 @@ h2 {
   margin: 44px 0px 0px 91px;
   width: 219px;
   height: 47px;
-  border:none;
+  border: none;
   padding: 6px 0px 0px 0px;
   color: #7c6c64;
   background-color: #fffefd;
   border-radius: 20px;
 }
 
-.text{
+.text {
   font-family: "Khula Regular";
   font-size: 21px;
   font-style: italic;
   margin: 27px 0px 0px 90px;
   line-height: 1.2;
   letter-spacing: 1.4px;
-
-
 }
