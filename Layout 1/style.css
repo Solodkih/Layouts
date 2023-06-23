@@ -92,9 +92,9 @@ ul > li:last-child {
 }
 
 li > img {
-position: absolute;
-top: 10px;
-left: 160px;
+  position: absolute;
+  top: 10px;
+  left: 160px;
 }
 
 .input:focus {
@@ -121,7 +121,7 @@ h1 {
 }
 h1 > span {
   display: inline-block;
-  transform: scale(-1, 1) 
+  transform: scale(-1, 1);
 }
 
 h2 {
@@ -132,4 +132,18 @@ h2 {
   text-transform: uppercase;
   margin: 0px;
   font-style: italic;
+}
+
+.section1 button {
+  font-family: "Khula ExtraBold", sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin: 66px 0px 0px 91px;
+  width: 219px;
+  height: 47px;
+  border:none;
+  padding: 6px 0px 0px 0px;
+  color: #7c6c64;
+  background-color: #fffefd;
+  border-radius: 20px;
 }
