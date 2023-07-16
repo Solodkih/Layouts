@@ -1,0 +1,13 @@
+.section2{
+  margin: auto;
+  width: 1440px;
+  height: 1074px;
+  background-color: rgb(244, 238, 250);
+}
+
+.section2__title{
+  font-size: 62px;
+  text-align: center;
+}
+
+
