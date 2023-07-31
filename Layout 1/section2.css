@@ -10,4 +10,10 @@
   text-align: center;
 }
 
-
+.section2__text{
+  text-align: center;
+  font-family: "Khula Regular";
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 1.4px;
+}
