@@ -6,6 +6,8 @@
 }
 
 .section2__title{
+  padding-top: 5px;
+  padding-bottom: 48px;
   font-size: 62px;
   text-align: center;
 }
@@ -15,5 +17,16 @@
   font-family: "Khula Regular";
   font-size: 30px;
   line-height: 1.2;
-  letter-spacing: 1.4px;
+  padding-bottom: 81px;
+}
+
+.section2__contents{
+  display: flex;
+  justify-content: space-around;
+}
+
+.section2__content{
+  height: 528px;
+  width: 328px;
+  background-color: darkslategray;
 }
