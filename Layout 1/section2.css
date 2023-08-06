@@ -3,6 +3,10 @@
   width: 1440px;
   height: 1074px;
   background-color: rgb(244, 238, 250);
+  background-image: url(./image/Shadow.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -340px bottom;
 }
 
 .section2__title{
@@ -14,19 +18,59 @@
 
 .section2__text{
   text-align: center;
-  font-family: "Khula Regular";
+  font-family: "Khula Regular", sans-serif;;
   font-size: 30px;
   line-height: 1.2;
   padding-bottom: 81px;
 }
 
-.section2__contents{
+.section2__wrap-contents{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0px 120px;
 }
 
 .section2__content{
   height: 528px;
-  width: 328px;
-  background-color: darkslategray;
+  width: 339px;
+  background-color: var(--COLOR_DARK_GREY);
+  color: var(--COLOR_WHITE);
+}
+
+.section2__content-title{
+  font-family: "Khula Bold", sans-serif;;
+  margin-top: 57px;
+  padding: 0px 15px;
+  font-size: 31px;
+}
+
+.section2__content-text{
+  font-family: "Khula Regular", sans-serif;;
+  font-size: 24px;
+  padding: 10px 15px 0px 15px;
+  font-weight: 100;
+  line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.section2__content > img {
+  width: 100%;
+}
+
+.section2__button{
+  display: block;
+  font-family: "Khula ExtraBold", sans-serif;
+  font-size: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 53px auto 0 auto;
+  padding-top: 8px;
+  width: 336px;
+  height: 78px;
+  border: none;
+  border-radius: 40px;
+  background-color: var(--COLOR_DARK_GREY);
+  color: var(--COLOR_WHITE);
 }

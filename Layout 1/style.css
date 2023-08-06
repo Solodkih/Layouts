@@ -2,7 +2,13 @@
     box-sizing: border-box;
   }
 
-  h1 {
+  :root {
+    --COLOR_GREY: #54514e;
+    --COLOR_DARK_GREY: #7f7770;
+    --COLOR_WHITE: #ffffff;
+  }
+
+  h1, h2 {
     margin: 0px;
   }
   
