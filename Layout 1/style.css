@@ -6,6 +6,8 @@
   --COLOR_GREY: #54514e;
   --COLOR_DARK_GREY: #7f7770;
   --COLOR_WHITE: #ffffff;
+  --COLOR_ORANGE: #edb47c;
+  --COLOR_STRONG_ORANGE: #f6a44e;
 }
 
 h1,
@@ -35,7 +37,7 @@ body {
 
 .title {
   font-family: "Khula ExtraBold", sans-serif;
-  color: #edb47c;
+  color: var(--COLOR_ORANGE);
   text-transform: uppercase;
   line-height: 1.05;
 }

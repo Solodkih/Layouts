@@ -22,3 +22,27 @@
   text-align: left;
   line-height: 70px;
 }
+
+.section3__content-text {
+  margin: 52px 0px 0px 57px;
+  font-family: "Khula Regular", sans-serif;
+  font-size: 31px;
+  line-height: 1.12;
+}
+
+.section3__button {
+  display: block;
+  font-family: "Khula Bold", sans-serif;
+  font-weight: 900;
+  font-size: 31px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin: 53px auto 0 57px;
+  padding-top: 14px;
+  width: 336px;
+  height: 78px;
+  border: none;
+  border-radius: 40px;
+  background-color: var(--COLOR_STRONG_ORANGE);
+  color: var(--COLOR_WHITE);
+}
