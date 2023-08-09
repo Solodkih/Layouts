@@ -5,11 +5,13 @@
 :root {
   --COLOR_GREY: #54514e;
   --COLOR_DARK_GREY: #7f7770;
+  --COLOR_LIGHT_GREY: #9a948e;
   --COLOR_WHITE: #ffffff;
   --COLOR_ORANGE: #edb47c;
   --COLOR_STRONG_ORANGE: #f6a44e;
   --COLOR_MID_ORANGE: #deb790;
-  --COLOR_LIGHT_ORANGE:#dfaa74
+  --COLOR_LIGHT_ORANGE: #dfaa74;
+  --COLOR_WHITE_GREY: #dddcda;
 }
 
 h1,
