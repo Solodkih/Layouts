@@ -5,6 +5,7 @@
   background: url(image/BackgroundImage.jpg) no-repeat;
   background-position-y: 78px;
   background-position-x: center;
+  background-size: contain;
 }
 
 .section1__menu {
