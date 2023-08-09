@@ -1,4 +1,4 @@
-.section2{
+.section2 {
   margin: auto;
   width: 1440px;
   height: 1074px;
@@ -9,43 +9,43 @@
   background-position: -340px bottom;
 }
 
-.section2__title{
+.section2__title {
   padding-top: 5px;
   padding-bottom: 48px;
   font-size: 62px;
   text-align: center;
 }
 
-.section2__text{
+.section2__text {
   text-align: center;
-  font-family: "Khula Regular", sans-serif;;
+  font-family: "Khula Regular", sans-serif;
   font-size: 30px;
   line-height: 1.2;
   padding-bottom: 81px;
 }
 
-.section2__wrap-contents{
+.section2__wrap-contents {
   display: flex;
   justify-content: space-between;
   padding: 0px 120px;
 }
 
-.section2__content{
+.section2__content {
   height: 528px;
   width: 339px;
   background-color: var(--COLOR_DARK_GREY);
   color: var(--COLOR_WHITE);
 }
 
-.section2__content-title{
-  font-family: "Khula Bold", sans-serif;;
+.section2__content-title {
+  font-family: "Khula Bold", sans-serif;
   margin-top: 57px;
   padding: 0px 15px;
   font-size: 31px;
 }
 
-.section2__content-text{
-  font-family: "Khula Regular", sans-serif;;
+.section2__content-text {
+  font-family: "Khula Regular", sans-serif;
   font-size: 24px;
   padding: 10px 15px 0px 15px;
   font-weight: 100;
@@ -59,7 +59,7 @@
   width: 100%;
 }
 
-.section2__button{
+.section2__button {
   display: block;
   font-family: "Khula ExtraBold", sans-serif;
   font-size: 26px;

@@ -1,45 +1,46 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  :root {
-    --COLOR_GREY: #54514e;
-    --COLOR_DARK_GREY: #7f7770;
-    --COLOR_WHITE: #ffffff;
-  }
+:root {
+  --COLOR_GREY: #54514e;
+  --COLOR_DARK_GREY: #7f7770;
+  --COLOR_WHITE: #ffffff;
+}
 
-  h1, h2 {
-    margin: 0px;
-  }
-  
-  body {
-    margin: 0;
-    min-height: 100%;
-    background-color: #54514e;
-  }
-  
-  @font-face {
-    font-family: "Khula Regular";
-    src: url(./font/Khula-Regular.ttf) format("truetype");
-  }
-  @font-face {
-    font-family: "Khula ExtraBold";
-    src: url(./font/Khula-ExtraBold.ttf) format("truetype");
-  }
-  
-  @font-face {
-    font-family: "Khula Bold";
-    src: url(./font/Khula-Bold.ttf) format("truetype");
-  }
+h1,
+h2 {
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #54514e;
+}
+
+@font-face {
+  font-family: "Khula Regular";
+  src: url(./font/Khula-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Khula ExtraBold";
+  src: url(./font/Khula-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Khula Bold";
+  src: url(./font/Khula-Bold.ttf) format("truetype");
+}
 
 .title {
-    font-family: "Khula ExtraBold", sans-serif;
-    color: #edb47c;
-    text-transform: uppercase;
-    line-height: 1.05;
+  font-family: "Khula ExtraBold", sans-serif;
+  color: #edb47c;
+  text-transform: uppercase;
+  line-height: 1.05;
 }
 
 .title > span {
-    display: inline-block;
-    transform: scale(-1, 1);
-  }
+  display: inline-block;
+  transform: scale(-1, 1);
+}
