@@ -1,12 +1,13 @@
 .section5 {
   margin: auto;
   width: 1440px;
-  height: 877px;
+  height: 765px;
   background-color: var(--COLOR_LIGHT_GREY);
   background-image: url(./image/Shadow.png);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: -340px 130px;
+  overflow: hidden;
 }
 
 .section5__top-line {
