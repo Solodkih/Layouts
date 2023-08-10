@@ -12,7 +12,9 @@
   --COLOR_MID_ORANGE: #deb790;
   --COLOR_LIGHT_ORANGE: #dfaa74;
   --COLOR_WHITE_GREY: #dddcda;
-}
+  --COLOR_LIGHT_BLACK: #2a3b40;
+  --COLOR_MIDLE_BLACK: #3d3d3d;
+} 
 
 h1,
 h2 {
