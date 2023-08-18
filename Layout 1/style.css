@@ -16,6 +16,7 @@
   --COLOR_LIGHT_BLACK: #2a3b40;
   --COLOR_MIDLE_BLACK: #3d3d3d;
   --COLOR_BRAUN: #837870;
+  --COLOR_STRONG_BLACK: #262020;
 }
 
 h1,
@@ -41,10 +42,16 @@ input {
   border: 0px;
   padding: 0px;
 }
+
+html {
+  background-color: var(--COLOR_STRONG_BLACK);
+}
+
 body {
-  margin: 0;
+  margin: auto;
+  width: 1440px;
   min-height: 100%;
-  background-color:var(--COLOR_WHITE);
+  background-color: var(--COLOR_WHITE);
 }
 
 @font-face {
