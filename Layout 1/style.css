@@ -4,8 +4,9 @@
 
 :root {
   --COLOR_GREY: #54514e;
-  --COLOR_DARK_GREY: #7f7770;
+  --COLOR_DARK_GREY: rgb(127, 119, 112);
   --COLOR_LIGHT_GREY: #9a948e;
+  --COLOR_STRONG_GREY: #776c64;
   --COLOR_WHITE: #ffffff;
   --COLOR_ORANGE: #edb47c;
   --COLOR_STRONG_ORANGE: #f6a44e;
@@ -43,7 +44,7 @@ input {
 body {
   margin: 0;
   min-height: 100%;
-  background-color: #54514e;
+  background-color:var(--COLOR_WHITE);
 }
 
 @font-face {
