@@ -1,0 +1,64 @@
+.section7 {
+  margin: auto;
+  height: 785px;
+  background-image: url(./image/ReflectedShadow.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 881px 278px;
+  overflow: hidden;
+}
+
+.section7__columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 162px 0px 162px;
+}
+
+.section7__column {
+  background-color: var(--COLOR_WHITE);
+}
+
+.section7__column-title {
+  font-family: "Khula Bold", sans-serif;
+  margin-top: 57px;
+  font-size: 36px;
+  color: var(--COLOR_ORANGE);
+}
+
+.section7__column-text {
+  font-family: "Khula Regular", sans-serif;
+  color: var(--COLOR_LIGHT_BLACK);
+  margin-top: 13px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.section7__title {
+  margin-top: 145px;
+  text-align: center;
+  font-family: "Khula Bold", sans-serif;
+  font-size: 100px;
+  color: var(--COLOR_MIDLE_BLACK);
+  font-style: italic;
+  transform: scale(-1, -1);
+}
+
+.section7__text {
+  margin-top: 13px;
+  text-align: center;
+  font-family: "Khula Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+  color: var(--COLOR_MIDLE_BLACK);
+}
+
+.section7__subtitle{
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Khula Bold", sans-serif;
+  font-size: 22px;
+  line-height: 1.2;
+  color: var(--COLOR_MIDLE_BLACK);
+}

@@ -1,0 +1,132 @@
+.section1 {
+  margin: auto;
+  width: 1440px;
+  height: 1080px;
+  background: url(image/BackgroundImage.jpg) no-repeat;
+  background-position-y: 78px;
+  background-position-x: center;
+  background-size: contain;
+}
+
+.section1__menu {
+  background: url(image/TopWhiteLine.png) no-repeat left top;
+  background-size: contain;
+  height: 196px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.section1__body {
+  height: 693px;
+}
+
+.section1__footer {
+  background: url(image/BottomWhiteLine.png) no-repeat left bottom;
+  background-size: contain;
+  height: 192px;
+}
+
+.menu__logo {
+  display: block;
+  margin-left: 74px;
+  margin-top: 30px;
+}
+
+.menu__list {
+  margin-top: 41px;
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.menu__list-item {
+  padding-top: 5px;
+  margin: 0px 31px;
+  color: var(--COLOR_GREY);
+  font-family: "Khula Regular", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.seach {
+  position: relative;
+}
+
+.seach__input {
+  position: relative;
+  height: 51px;
+  width: 182px;
+  padding: 5px 55px 0px 15px;
+  background-color: var(--COLOR_DARK_GREY);
+  opacity: 0.47;
+  border: none;
+  border-radius: 25px;
+  color: var(--COLOR_GREY);
+  font-family: "Khula Regular", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-right: 56px;
+  margin-left: 31px;
+}
+
+.seach__logo {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+}
+
+.seach__input:focus {
+  outline: none;
+}
+
+.seach__input:focus + .seach__logo {
+  display: none;
+}
+
+.section1__title {
+  font-size: 100px;
+  margin: 0px 0px 0px 0px;
+  padding: 181px 0px 0px 93px;
+}
+
+.section1__subtitle {
+  font-family: "Khula Bold", sans-serif;
+  font-size: 26px;
+  letter-spacing: 5px;
+  padding: 0px 0px 0px 91px;
+  text-transform: uppercase;
+  margin: 0px;
+  font-style: italic;
+}
+
+.section1__button {
+  font-family: "Khula ExtraBold", sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin: 44px 0px 0px 91px;
+  width: 219px;
+  height: 47px;
+  border: none;
+  padding: 6px 0px 0px 0px;
+  color: var(--COLOR_STRONG_GREY);
+  background-color: var(--COLOR_WHITE);
+  opacity: 0.9;
+  border-radius: 20px;
+}
+
+.section1__text {
+  font-family: "Khula Regular", sans-serif;
+  font-size: 21px;
+  font-style: italic;
+  margin: 27px 0px 0px 90px;
+  line-height: 1.2;
+  letter-spacing: 1.4px;
+}

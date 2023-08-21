@@ -1,0 +1,44 @@
+.section9 {
+  margin: auto;
+  height: 833px;
+  background-color: var(--COLOR_BRAUN);
+}
+
+.section9__top-line {
+  background: url(image/TopWhiteLine.png) no-repeat left bottom;
+  background-size: cover;
+  height: 93px;
+  transform: scale(-1, 1);
+}
+
+.section9__footer {
+  padding: 228px 93px 0px 93px;
+  font-family: "Khula Regular", sans-serif;
+  color: var(--COLOR_WHITE);
+  display: flex;
+  justify-content: space-between;
+}
+
+.section9__colomn-title {
+  font-size: 33px;
+  letter-spacing: 3px;
+}
+.section9__colomn-body  {
+  margin-top: 18px;
+  font-size: 25px;
+  line-height: 1.13;
+  letter-spacing: 1px;
+}
+.section9__colomn-body > li {
+  padding-bottom: 13px;
+}
+
+.section9__colomn:first-child {
+  padding-right: 123px;
+}
+.section9__wrap-img {
+  padding-top: 30px;
+}
+.section9__wrap-img > img {
+    padding-right: 11px;
+}

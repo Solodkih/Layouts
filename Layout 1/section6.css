@@ -1,0 +1,42 @@
+.section6 {
+  margin: auto;
+  height: 1054px;
+  background-image: url(./image/Section6-background.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -345px bottom;
+}
+
+.section6__top-line {
+  background: url(image/TopWhiteLine.png) no-repeat left top;
+  background-size: contain;
+  height: 210px;
+  transform: scale(-1, 1);
+}
+
+.section6__content {
+  height: 734px;
+}
+
+.section6__bottom-line {
+  background: url(image/BottomWhiteLine.png) no-repeat left bottom;
+  background-size: cover;
+  background-position: top left;
+  height: 155px;
+}
+
+.section6__title {
+  padding: 235px 102px 0px 0px;
+  text-align: right;
+  font-family: "Khula ExtraBold", sans-serif;
+  color: var(--COLOR_ORANGE);
+  text-transform: uppercase;
+  line-height: 1.15;
+  font-size: 80px;
+  font-style: italic;
+}
+
+.section6__title > span {
+  font-size: 85px;
+  color: var(--COLOR_GREY);
+}

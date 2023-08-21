@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --COLOR_GREY: #54514e;
+  --COLOR_DARK_GREY: #7f7770;
+  --COLOR_LIGHT_GREY: #9a948e;
+  --COLOR_STRONG_GREY: #776c64;
+  --COLOR_WHITE: #ffffff;
+  --COLOR_ORANGE: #edb47c;
+  --COLOR_STRONG_ORANGE: #f6a44e;
+  --COLOR_MID_ORANGE: #deb790;
+  --COLOR_LIGHT_ORANGE: #dfaa74;
+  --COLOR_WHITE_GREY: #dddcda;
+  --COLOR_LIGHT_BLACK: #2a3b40;
+  --COLOR_MIDLE_BLACK: #3d3d3d;
+  --COLOR_BRAUN: #837870;
+  --COLOR_STRONG_BLACK: #262020;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input {
+  border: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: var(--COLOR_STRONG_BLACK);
+}
+
+body {
+  margin: auto;
+  width: 1440px;
+  min-height: 100%;
+  background-color: var(--COLOR_WHITE);
+}
+
+@font-face {
+  font-family: "Khula Regular";
+  src: url(./font/Khula-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Khula ExtraBold";
+  src: url(./font/Khula-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Khula Bold";
+  src: url(./font/Khula-Bold.ttf) format("truetype");
+}
+
+.title {
+  font-family: "Khula ExtraBold", sans-serif;
+  color: var(--COLOR_ORANGE);
+  text-transform: uppercase;
+  line-height: 1.05;
+}
+
+.title > span {
+  display: inline-block;
+  transform: scale(-1, 1);
+}

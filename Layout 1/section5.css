@@ -1,0 +1,45 @@
+.section5 {
+  margin: auto;
+  height: 765px;
+  background-color: var(--COLOR_LIGHT_GREY);
+  background-image: url(./image/Shadow.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -340px 130px;
+  overflow: hidden;
+}
+
+.section5__top-line {
+  background: url(image/TopWhiteLine.png) no-repeat left top;
+  background-size: contain;
+  height: 210px;
+  transform: scale(-1, 1);
+}
+.section5__bottom-line {
+  background: url(image/BottomWhiteLine.png) no-repeat left bottom;
+  background-size: contain;
+  height: 210px;
+}
+
+.section5__contents {
+  height: 457px;
+}
+
+.section5__title {
+  padding: 166px 0px 0px 0px;
+  font-family: "Khula Regular", sans-serif;
+  letter-spacing: 1px;
+  font-size: 62px;
+  text-align: center;
+  line-height: 70px;
+  color: var(--COLOR_WHITE);
+}
+
+.section5__content-text {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  font-family: "Khula Regular", sans-serif;
+  font-size: 31px;
+  line-height: 1.12;
+  color: var(--COLOR_WHITE_GREY);
+}
