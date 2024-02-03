@@ -17,4 +17,6 @@ The repository is created for educational purposes.
 Исходник дизайна/Source of design  - 
 [freepik](https://www.freepik.com/free-psd/hiking-concept-web-template_7183405.htm#query=landing%20page&position=5&from_view=keyword&track=ais)
 
+Cсылка на Github-pages/Link to Github-pages: 
+[https://solodkih.github.io/Layouts/](https://solodkih.github.io/Layouts/)
 
